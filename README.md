@@ -1,0 +1,2 @@
+# funding
+Bitmex Funding Strategy
