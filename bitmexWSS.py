@@ -13,8 +13,8 @@ def run():
 
     ws.get_instrument()['symbol']
     
-    logging.info("The BitMEX Funding Rate is " + str(ws.get_instrument()['fundingRate']))
-    logging.info("The BitMEX Indicative Funding Rate (for the Funding after next) is " + str(ws.get_instrument()['fundingRate']))
+    logging.info("BitMEX Funding Rate is " + str(ws.get_instrument()['fundingRate']))
+    logging.info("BitMEX Next Funding Rate is " + str(ws.get_instrument()['fundingRate']))
 
     # Run forever
     while(ws.ws.sock.connected):
