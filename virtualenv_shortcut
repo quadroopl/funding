@@ -1,0 +1,7 @@
+cd Desktop
+
+bitmexvenv\venv\Scripts\activate.bat
+
+#For VSC:
+
+\Desktop\bitmexvenv\venv\Scripts\python.exe
