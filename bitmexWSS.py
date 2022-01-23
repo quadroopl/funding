@@ -2,7 +2,7 @@ from bitmex_websocket import BitMEXWebsocket
 import logging
 from time import sleep
 
-LastBitmex = "     Waiting for BitMEX...             "
+#LastBitmex = "     Waiting for BitMEX...             "
 
 def run():
     logger = setup_logger()
